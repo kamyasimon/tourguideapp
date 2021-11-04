@@ -51,7 +51,7 @@ public class tourThrillsAdapter extends ArrayAdapter<Tasks> {
 
         ///set the image for the List item
         ImageView tourImage =  listItemView.findViewById(R.id.tourImages);
-        tourImage.setImageResource(currentTask.getTourImages());
+        //tourImage.setImageResource(currentTask.getTourImages());
 
 
         return listItemView;
