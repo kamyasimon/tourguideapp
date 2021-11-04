@@ -2,4 +2,12 @@
     <string name="app_name">Tour Guide App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thrillTaskone">Bangee Jumpin</string>
+    <string name="thrillLocationone">Busiika</string>
+    <string name="thrillTasktwo">Boda Boda Tour Ride</string>
+    <string name="thrillLocationtwo">Kampala</string>
+    <string name="thrillTaskthree">Heaven Swing</string>
+    <string name="thrillLocationthree">Nile Plunge Pool</string>
+    <string name="thrillTaskfour">Bangee Jumpin</string>
+    <string name="thrillLocationfour">Kampala</string>
 </resources>
