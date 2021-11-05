@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TourGuideApp">
         <activity android:name=".Thrills"></activity>
-        <activity android:name=".Events" />
-        <activity android:name=".Monuments" />
-        <activity android:name=".Restaurants" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

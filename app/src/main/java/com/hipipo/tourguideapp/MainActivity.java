@@ -2,6 +2,8 @@ package com.hipipo.tourguideapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
@@ -25,13 +27,13 @@ public class MainActivity extends AppCompatActivity {
     public void allviews() {
         tabs = findViewById(R.id.tablayout);
         viewPager = findViewById(R.id.viewpager);
-
-        FragmentManager fragmentManager = getSupportFragmentManager();
-
-        fragmentAdapter = new FragmentAdapter(fragmentManager, getLifecycle());
-
-
+        FragmentManager fragments = getSupportFragmentManager();
+        fragmentAdapter = new FragmentAdapter(fragments,getLifecycle());
         viewPager.setAdapter(fragmentAdapter);
+
+
+
+
         tabs.addTab(tabs.newTab().setText("Thrills"));
         tabs.addTab(tabs.newTab().setText("Events"));
         tabs.addTab(tabs.newTab().setText("Restaurants"));
@@ -54,12 +56,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        viewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-            @Override
-            public void onPageSelected(int position) {
-                //super.onPageSelected(position);
-                tabs.selectTab(tabs.getTabAt(position));
-            }
-        });
+
     }
 }

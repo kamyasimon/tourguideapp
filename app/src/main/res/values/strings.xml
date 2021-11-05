@@ -2,4 +2,16 @@
     <string name="app_name">Tour Guide App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thrillTaskone">Bangee Jumpin</string>
+    <string name="thrillLocationone">Busiika</string>
+    <string name="thrillLocationoneaddress">45km from kampala, P.O.Box 5637, Call 073457288</string>
+    <string name="thrillTasktwo">Boda Boda Tour Ride</string>
+    <string name="thrillLocationtwo">Kampala</string>
+    <string name="thrillLocationtwoaddress">in kampala Central Business District, Call 07234563838 to book a ride</string>
+    <string name="thrillTaskthree">Heaven Swing</string>
+    <string name="thrillLocationthree">Nile Plunge Pool</string>
+    <string name="thrillLocationthreeaddress">80km from kampala, in Jinja Town, P.O.Box 3487, Call 0712052356</string>
+    <string name="thrillTaskfour">Feed A Giraffe</string>
+    <string name="thrillLocationfour">Entebbe</string>
+    <string name="thrillLocationfouraddress">22km from kampala,near Entebbe Airport, P.O.Box 5398, Call 072397548</string>
 </resources>
