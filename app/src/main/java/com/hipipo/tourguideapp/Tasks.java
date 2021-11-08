@@ -5,14 +5,21 @@ public class Tasks {
     private String tourLocations;
     private int tourImages;
     private String tourAddress;
-
-
+    private String workHours;
 
     public Tasks(String tourActivities, String tourLocations, int tourImages, String tourAddress) {
-        this.tourActivities = "Activity: " + tourActivities;
-        this.tourLocations = "Location: " + tourLocations;
+        this.tourActivities = tourActivities;
+        this.tourLocations = tourLocations;
         this.tourImages = tourImages;
         this.tourAddress = tourAddress;
+    }
+
+    public Tasks(String tourActivities, String tourLocations, int tourImages, String tourAddress, String workHours) {
+        this.tourActivities = tourActivities;
+        this.tourLocations = tourLocations;
+        this.tourImages = tourImages;
+        this.tourAddress = tourAddress;
+        this.workHours = workHours;
     }
 
     public String getTourLocations() {
@@ -29,6 +36,10 @@ public class Tasks {
 
     public String getTourAddress() {
         return this.tourAddress;
+    }
+
+    public String getWorkHours() {
+        return this.workHours;
     }
 
 }

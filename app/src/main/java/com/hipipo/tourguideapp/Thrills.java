@@ -14,20 +14,19 @@ public class Thrills extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thrills);
         displayTourDetails();
-
     }
 
-    public void displayTourDetails(){
+    public void displayTourDetails() {
         Intent tourDetail = getIntent();
-
         String activity = tourDetail.getStringExtra("activity");
         String location = tourDetail.getStringExtra("location");
         String address = tourDetail.getStringExtra("address");
         String image = tourDetail.getStringExtra("image");
+        String workHours = tourDetail.getStringExtra("time");
 
         ///HERE IS WHERE THE ISSUE IS COMING FROM.../////
         ImageView tourImage = findViewById(R.id.yourThrillImage);
-        int imageId =  getResources().getIdentifier(image,"Drawable",getPackageName());
+        int imageId = getResources().getIdentifier(image, "Drawable", getPackageName());
         tourImage.setImageResource(imageId);
         ////the above is the issue
 
@@ -38,9 +37,12 @@ public class Thrills extends AppCompatActivity {
         tourLocation.setText(location);
 
         TextView tourAddress = findViewById(R.id.tourAddress);
-        tourAddress.setText(address);
+        if (workHours != null) {
+            tourAddress.setText(address + '\n' + workHours);
+        } else {
+            tourAddress.setText(address);
+        }
 
-    };
-
+    }
 
 }

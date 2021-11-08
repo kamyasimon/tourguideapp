@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="thrillTaskone">Bangee Jumpin</string>
     <string name="thrillLocationone">Busiika</string>
     <string name="thrillLocationoneaddress">45km from kampala, P.O.Box 5637, Call 073457288</string>
@@ -14,4 +13,13 @@
     <string name="thrillTaskfour">Feed A Giraffe</string>
     <string name="thrillLocationfour">Entebbe</string>
     <string name="thrillLocationfouraddress">22km from kampala,near Entebbe Airport, P.O.Box 5398, Call 072397548</string>
+    <string name="restaurantcafejavas">Cafe Javas Restaurant</string>
+    <string name="restaurantdayoff">Day Off Restaurant</string>
+    <string name="restaurantroadfood">Road Food on a Trip</string>
+    <string name="restauranthitable">Hi Table Restaurant and Bar</string>
+    <string name="restaurantcafejavashrs">07.00 HRS - 17:00 HRS</string>
+    <string name="restaurantdayoffhrs">08.30 AM - 09:00 PM</string>
+    <string name="restaurantroadfoodhrs">07.00 AM - 03:00 PM</string>
+    <string name="restauranthitablehrs">OPEN 24 HRS</string>
+
 </resources>
