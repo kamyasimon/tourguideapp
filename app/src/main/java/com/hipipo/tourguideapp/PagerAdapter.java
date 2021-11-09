@@ -17,7 +17,12 @@ public class PagerAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 1:
                 return new eventsFragment();
+            case 2:
+                return new restaurantsFragment();
+            case 3:
+                return new monumentsFragment();
         }
+
         return new thrillsFragment();
     }
 

@@ -27,8 +27,11 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragments = getSupportFragmentManager();
         fragmentAdapter = new FragmentAdapter(fragments, getLifecycle());
         viewPager.setAdapter(fragmentAdapter);
-        tabs.addTab(tabs.newTab().setText("Thrills"));
-        tabs.addTab(tabs.newTab().setText("Restaurants"));
+
+        tabs.addTab(tabs.newTab().setText(getText(R.string.thrillsTab)));
+        tabs.addTab(tabs.newTab().setText(R.string.eventsTab));
+        tabs.addTab(tabs.newTab().setText(R.string.restaurantsTab));
+        tabs.addTab(tabs.newTab().setText(R.string.monumentsTab));
 
         tabs.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -46,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
 
     }
 }

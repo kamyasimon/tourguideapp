@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
+    <string name="thrillsTab">Thrills</string>
+    <string name="eventsTab">Events</string>
+    <string name="restaurantsTab">Restaurants</string>
+    <string name="monumentsTab">Monuments</string>
 
     <string name="thrillTaskone">Bangee Jumpin</string>
     <string name="thrillLocationone">Busiika</string>
@@ -13,6 +17,7 @@
     <string name="thrillTaskfour">Feed A Giraffe</string>
     <string name="thrillLocationfour">Entebbe</string>
     <string name="thrillLocationfouraddress">22km from kampala,near Entebbe Airport, P.O.Box 5398, Call 072397548</string>
+
     <string name="restaurantcafejavas">Cafe Javas Restaurant</string>
     <string name="restaurantdayoff">Day Off Restaurant</string>
     <string name="restaurantroadfood">Road Food on a Trip</string>
@@ -21,5 +26,22 @@
     <string name="restaurantdayoffhrs">08.30 AM - 09:00 PM</string>
     <string name="restaurantroadfoodhrs">07.00 AM - 03:00 PM</string>
     <string name="restauranthitablehrs">OPEN 24 HRS</string>
+
+    <string name="eventWines">Wine And Dine</string>
+    <string name="eventDance">The Dance Studio</string>
+    <string name="eventCultureDance">Cultural Dance</string>
+    <string name="eventWinesday">Wednesday 7th July 2021</string>
+    <string name="eventDanceday">Friday 26th August 2021</string>
+    <string name="eventCulturalDanceday">Monday 12th April 2021</string>
+
+    <string name="monumentRoadTrip">Road Trip</string>
+    <string name="monumentroadHrs">1 Day Tour</string>
+    <string name="monumentMoroto">Mountain Moroto</string>
+    <string name="monumentmorotoHrs">4 Dyas Tour</string>
+    <string name="monumentMweya">Mweya Wild Pack</string>
+    <string name="monumentMweyaHrs">5 Days Tour</string>
+    <string name="monumentPlungpool">Sipi Plunge Pool</string>
+    <string name="monumentplungpoolHrs">2 Dyas Tour</string>
+
 
 </resources>

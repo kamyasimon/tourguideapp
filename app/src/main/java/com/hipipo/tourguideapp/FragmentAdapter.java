@@ -17,9 +17,13 @@ public class FragmentAdapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position) {
             case 1:
+                return new eventsFragment();
+            case 2:
                 return new restaurantsFragment();
-        }
+            case 3:
+                return new monumentsFragment();
 
+        }
         return new thrillsFragment();
     }
 

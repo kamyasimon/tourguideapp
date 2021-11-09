@@ -38,7 +38,7 @@ public class Thrills extends AppCompatActivity {
 
         TextView tourAddress = findViewById(R.id.tourAddress);
         if (workHours != null) {
-            tourAddress.setText(address + '\n' + workHours);
+            tourAddress.setText(address + '\n' + "OPEN: " + workHours);
         } else {
             tourAddress.setText(address);
         }
